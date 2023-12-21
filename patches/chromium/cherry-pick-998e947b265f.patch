@@ -1,7 +1,7 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Yi Gu <yigu@chromium.org>
 Date: Fri, 1 Dec 2023 00:10:37 +0000
-Subject: [FedCM] Check API permission before showing accounts UI
+Subject: Check API permission before showing accounts UI
 
 The accounts fetch could be delayed for legitimate reasons. A user may be
 able to disable FedCM API (e.g. via settings or dismissing another FedCM
